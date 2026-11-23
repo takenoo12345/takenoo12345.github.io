@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>たけのこのホームページ？</title>
+<style>
+  body {
+    margin: 0;
+    background: #14233f;
+    color: #14233f;
+    font-family: sans-serif;
+    line-height: 1.7;
+  }
 
+  main {
+    box-sizing: border-box;
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 40px 32px;
+    background: #fff;
+  }
+
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    align-items: center;
+  }
+
+  .profile img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 0 32px;
+    padding: 0;
+    list-style: none;
+  }
+
+  li a {
+    display: block;
+    padding: 12px 8px;
+    border-bottom: 1px solid #d5dbe8;
+    color: inherit;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>プロフィール</h1>
+
+  <section class="profile">
+    <img src="icon.png" alt="アイコン">
+    <div>
+      <h2>takenoo12345</h2>
+      <p>中学生らしい</p>
+      <p>馬鹿です</p>
+    </div>
+  </section>            
+
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://github.com/takenoo12345">GitHub</a></li>
+    <li><a href="https://x.com/takenoo12345">X</a></li>
+    <li><a href="https://www.youtube.com/@ta.kenoko">YouTube(ほぼやってない)</a></li>
+    <li><a href="https://discord.com/users/1217438612178604142">Discord</a></li>
+  </ul>
+</main>
+</body>
+</html>
